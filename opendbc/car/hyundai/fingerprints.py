@@ -556,14 +556,17 @@ FW_VERSIONS = {
       b'\xf1\x00BD  MDPS C 1.00 1.08 56310M6300\x00 4BDDC108',
       b'\xf1\x00BDm MDPS C A.01 1.01 56310M7800\x00 4BPMC101',
       b'\xf1\x00BDm MDPS C A.01 1.03 56310M7800\x00 4BPMC103',
+      b'\xf1\x00BD  MDPS C 1.00 1.01 56310/M6390 4BD2C101',
     ],
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00BD  LKAS AT USA LHD 1.00 1.04 95740-M6000 J33',
       b'\xf1\x00BDP LKAS AT USA LHD 1.00 1.05 99211-M6500 744',
+      b'\xf1\x00BDU LKAS AT AUS RHD 1.00 1.02 99211-M6000 f21',
     ],
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00BDPE_SCC FHCUPC     1.00 1.04 99110-M6500\x00\x00\x00\x00\x00\x00\x00\x00\x00',
       b'\xf1\x00BD__ SCC H-CUP      1.00 1.02 99110-M6000         ',
+      b'\xf1\x00BD__ SCC H-CUP      1.00 1.01 99110-M6100      \x00\x00\x00',
     ],
   },
   CAR.KIA_K5_2021: {
